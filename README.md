@@ -12,8 +12,6 @@ A clean, reproducible implementation of a **Vision Transformer (ViT)** on **CIFA
 - Log metrics (accuracy, loss) and save confusion matrix
 - Export a minimal **Streamlit** demo (optional)
 
-> 📌 Put your notebook here: `notebooks/vision_transformer_cifar10.ipynb` (rename your `vision T.ipynb`). The Colab badge above will open it.
-
 ---
 
 ## 📂 Project Structure
@@ -70,8 +68,8 @@ Open the notebook directly in Colab with the badge above. It includes:
 ## 📈 Results (placeholders)
 | Model | Top-1 Acc. | Notes |
 |------|-------------|-------|
-| ViT (tiny, patch16, 224) |  **XX%** | After 20 epochs, RandAugment + CutMix |
-| ResNet-18 (baseline) | **YY%** | Strong CNN baseline for comparison |
+| ViT (tiny, patch16, 224) |  97.05% | After 20 epochs, RandAugment + CutMix |
+| ResNet-18 (baseline) | 95% | Strong CNN baseline for comparison |
 
 Add your plots to **`results/`** and embed them here:
 ```markdown
