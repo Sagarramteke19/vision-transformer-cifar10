@@ -70,8 +70,6 @@ Open the notebook directly in Colab with the badge above. It includes:
 | ViT (tiny, patch16, 224) |  97.05% | After 20 epochs, RandAugment + CutMix |
 | ResNet-18 (baseline) | 95% | Strong CNN baseline for comparison |
 
-Add your plots to **`results/`** and embed them here:
-
 ![Accuracy Curve](./results/accuracy.png)
 
 ![Confusion Matrix](./results/confusionmatrix.png)
