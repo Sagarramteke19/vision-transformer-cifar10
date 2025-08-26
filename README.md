@@ -73,9 +73,9 @@ Open the notebook directly in Colab with the badge above. It includes:
 
 Add your plots to **`results/`** and embed them here:
 
-![Accuracy Curve](./results/model.png)
+![Accuracy Curve](./results/accuracy.png)
 
-![Confusion Matrix](./results/confusionmatricbasline.png)
+![Confusion Matrix](./results/confusionmatrix.png)
 ```
 
 ---
