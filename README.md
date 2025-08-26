@@ -1,4 +1,4 @@
-# 🧠 Vision Transformer on CIFAR-10 (with Attention Maps)
+🧠 Vision Transformer on CIFAR-10 (with Attention Maps)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sagarramteke19/vision-transformer-cifar10/blob/main/notebooks/vision_transformer_cifar10.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
@@ -13,8 +13,7 @@ A clean, reproducible implementation of a **Vision Transformer (ViT)** on **CIFA
 - Export a minimal **Streamlit** demo (optional)
 
 ---
-
-## 📂 Project Structure
+📂 Project Structure
 ```
 vision-transformer-cifar10/
 ├─ notebooks/
@@ -36,7 +35,7 @@ vision-transformer-cifar10/
 
 ---
 
-## 🚀 Quickstart
+🚀 Quickstart
 
 ```bash
 # 1) Install
@@ -56,7 +55,7 @@ python -m src.visualize_attention --ckpt results/best_vit.pt --num-samples 8
 
 ---
 
-## 🧪 Notebook (Colab)
+🧪 Notebook (Colab)
 Open the notebook directly in Colab with the badge above. It includes:
 - Dataset EDA (sample grid, class distribution)
 - Training loop with early stopping
@@ -65,7 +64,7 @@ Open the notebook directly in Colab with the badge above. It includes:
 
 ---
 
-## 📈 Results (placeholders)
+📈 Results (placeholders)
 | Model | Top-1 Acc. | Notes |
 |------|-------------|-------|
 | ViT (tiny, patch16, 224) |  97.05% | After 20 epochs, RandAugment + CutMix |
@@ -80,24 +79,14 @@ Add your plots to **`results/`** and embed them here:
 
 ---
 
-## 📦 Dataset
+📦 Dataset
 Uses torchvision **CIFAR-10** (automatically downloaded on first run). If you use a custom dataset, update `datasets.py` accordingly.
-
 ---
 
-## 📜 License
-MIT
+🖥️ Streamlit Demo
 
-
----
-
-## 🖥️ Streamlit Demo
-Run an interactive demo locally or deploy to Streamlit Cloud.
-
-```bash
+bash
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
-
-> Place your trained weights at `results/best_vit.pt` to get meaningful predictions.
 
