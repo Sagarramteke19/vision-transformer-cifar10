@@ -72,10 +72,10 @@ Open the notebook directly in Colab with the badge above. It includes:
 | ResNet-18 (baseline) | 95% | Strong CNN baseline for comparison |
 
 Add your plots to **`results/`** and embed them here:
-```markdown
-![Accuracy Curve](./results/acc_curve.png)
-![Confusion Matrix](./results/confusion_matrix.png)
-![Attention Maps](./results/attention_grid.png)
+
+![Accuracy Curve](./results/model1.png)
+![Confusion Matrix](./results
+/confusion matric basline.png)
 ```
 
 ---
