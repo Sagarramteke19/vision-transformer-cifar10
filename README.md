@@ -75,8 +75,6 @@ Open the notebook directly in Colab with the badge above. It includes:
 ![Confusion Matrix](./results/confusionmatrix.png)
 ```
 
----
-
 📦 Dataset
 Uses torchvision **CIFAR-10** (automatically downloaded on first run). If you use a custom dataset, update `datasets.py` accordingly.
 ---
