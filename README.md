@@ -1,4 +1,4 @@
-🧠 Vision Transformer on CIFAR-10 (with Attention Maps)
+# 🧠 Vision Transformer on CIFAR-10 (with Attention Maps)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sagarramteke19/vision-transformer-cifar10/blob/main/notebooks/vision_transformer_cifar10.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
