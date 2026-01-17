@@ -17,7 +17,7 @@ A clean, reproducible implementation of a **Vision Transformer (ViT)** on **CIFA
 ```
 vision-transformer-cifar10/
 ├─ notebooks/
-│  └─ vision_transformer_cifar10.ipynb   # your notebook goes here
+│  └─ vision_transformer_cifar10.ipynb   
 ├─ src/
 │  ├─ train.py                           # CLI training script (torch)
 │  ├─ datasets.py                        # CIFAR-10 dataloaders & transforms
